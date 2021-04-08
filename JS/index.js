@@ -66,3 +66,23 @@ document.write("<br>");
 // Array
 var selectName = ['A', 'B', 'C'];
 document.write(selectName);
+
+document.write("<br>");
+
+// Function
+// Performing a task
+function greet(name)
+{
+    document.write('Hello ' + name);
+}
+greet('Kunj');
+
+document.write("<br>");
+
+// Function that Calculating a Value
+function square(num)
+{
+    return num*num;
+}
+
+document.write(square(2));
